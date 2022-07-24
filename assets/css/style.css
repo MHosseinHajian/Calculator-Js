@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    
+}
+
+.calBody{
+    padding: 10px;
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #e2e2ee;
+    box-shadow: 0px 0px 10px #e2e2ee;
+    position: relative;
+    margin: 10px auto;
+}
+
+.calBody input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: none;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.numberButtonArea{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.numberButtonArea button{
+    width: 31%;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #e2e2ee;
+    background: #fff;
+    box-shadow: 0px 0px 4px #e2e2ee;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.numberButtonArea button:nth-child(11){
+    width: 66% !important;
+}
+.numberButtonArea button:nth-child(15),
+.numberButtonArea button:nth-child(16){
+    width: 49% !important;
+}
+
+.numberButtonArea button:hover{
+    box-shadow: none;
+}
+
+.clean{
+    width: 100% !important;
+    background: rgb(255, 95, 95) !important;
+    color: #fff !important;
+}
+
+.equal{
+    width: 100% !important;
+    background: rgb(0, 172, 100) !important;
+    color: #fff !important;
+}
+
+.specialCalc{
+    width:100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.specialCalc button{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #e2e2ee;
+    background: #fff;
+    box-shadow: 0px 0px 4px #e2e2ee;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer ;
+}
